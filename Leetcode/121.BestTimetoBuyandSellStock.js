@@ -18,7 +18,6 @@ var maxProfit = function (prices) {
   while (right < prices.length) {
     if (prices[left] > prices[right]) {
       left = right;
-
     }
     const profit = prices[right] - prices[left];
     if (profit > maxProfit) {
