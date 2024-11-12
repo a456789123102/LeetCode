@@ -12,8 +12,7 @@ for(let i = 1 ; i < table.length ; i++){
         }
     }
 }
-    return table;[table.length-1][table[0].length-1].length
+    return table[table.length-1][table[0].length-1].length;
 };
 
 console.log(longestCommonSubsequence("abcba","abcbcba"))
-//
