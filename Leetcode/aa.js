@@ -45,8 +45,8 @@ if(newRow === grid.length-1 && newCol=== grid[0].length-1){
 return possibleTime;
 };
 console.log(minimumTime(
- [[0,1,3,2],
-  [5,1,2,5],
+ [[0,1,9,2],
+  [5,9,9,5],
   [4,3,8,6]]
 ))
 
