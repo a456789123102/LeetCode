@@ -11,13 +11,9 @@ var maxArea = function (height) {
     maxSum = Math.max(maxSum,width*minH);
     if(height[left] < height[right]){
         left ++;
-        console.log(`plus left ${left} to val = ${height[left]}`)
     }else{
         right--;
-        console.log(`reduce right ${right} to val = ${height[right]}`)
     }
-
-  
   }
 return maxSum
 }
