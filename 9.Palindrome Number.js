@@ -14,7 +14,6 @@ var isPalindrome = function(x) {
     const xx = x.toString();
     let left = 0, right = xx.length-1;
     while(left < right){
-        console.log(xx[left],xx[right])
         if(xx[left]!== xx[right]) return false;
         left++;
         right--;
